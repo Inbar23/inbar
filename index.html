@@ -10,6 +10,19 @@
             text-align: center;
             background-color: #f4f4f4;
         }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -29,7 +42,16 @@
     </style>
 </head>
 <body>
-    <h1>My Image Gallery</h1>
+    <header>
+        <h1>My Image Gallery</h1>
+    </header>
+
+    <!-- ניווט -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="secondary.html">Secondary Page</a>
+    </nav>
+
     <div class="gallery">
         <img src="https://github.com/Inbar23/inbar/blob/main/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/DSC01763.jpg?raw=true" alt="Image 1">
         <img src="https://github.com/Inbar23/inbar/blob/main/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/DSC01834-2.jpg?raw=true" alt="Image 2">
